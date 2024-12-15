@@ -4,7 +4,7 @@ import { FiExternalLink } from "react-icons/fi";
 export default function Projects() {
   const projectData = [
     {
-      title: "Sentinel",
+      title: "🗂 Sentinel",
       description:
         "A full-stack MERN application designed for secure document tracking and management. Features include user authentication, authorization, and a clean interface for managing documents efficiently.",
       imageUrl: "/img/sentinel.webp",
@@ -20,7 +20,7 @@ export default function Projects() {
       liveDemoLink: "https://sentinel-ie0i.onrender.com/",
     },
     {
-      title: "Takam",
+      title: "🍲 Takam",
       description:
         "A full-stack MERN marketplace application featuring user profiles, item posting, commenting, favoriting, and order management.",
       imageUrl: "/img/takam.png",
@@ -36,7 +36,7 @@ export default function Projects() {
       liveDemoLink: "https://takam.onrender.com/",
     },
     {
-      title: "Quick Insight",
+      title: "📖 Quick Insight",
       description:
         "A web application that uses AI to generate concise book summaries and key takeaways, helping users quickly evaluate a book's value.",
       imageUrl: "/img/quickinsight.png",
@@ -51,7 +51,7 @@ export default function Projects() {
       liveDemoLink: "https://quickinsight-app.onrender.com/app.html",
     },
     {
-      title: "Mindful Street",
+      title: "🧘 Mindful Street",
       description: "A static website for a mindfulness service company.",
       imageUrl: "/img/mindfulstreet.png",
       technologies: ["HTML", "CSS", "JavaScript"],
@@ -59,7 +59,7 @@ export default function Projects() {
       liveDemoLink: "https://mindfulstreet.onrender.com/",
     },
     {
-      title: "Meetings Map",
+      title: "📍 Meetings Map",
       description: "An interactive map for attendees to locate meetings.",
       imageUrl: "/img/na.png",
       technologies: ["HTML", "CSS", "JavaScript", "Google Maps"],
@@ -88,7 +88,7 @@ export default function Projects() {
               className="bg-white shadow-lg rounded-3xl p-6 hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between"
             >
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                <h3 className="text-xl font-semibold text-gray-800 mb-6">
                   {project.title}
                 </h3>
                 <div
@@ -101,11 +101,11 @@ export default function Projects() {
                     className="absolute inset-0 w-full h-full object-contain rounded-md"
                   />
                 </div>
-                <p className="text-gray-600 mt-4 mb-4">{project.description}</p>
+                <p className="text-gray-600 mt-6 mb-6">{project.description}</p>
               </div>
 
               <div className="flex flex-col mt-auto">
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
@@ -116,12 +116,12 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <div className="flex flex-wrap gap-4 w-full">
+                <div className="flex flex-wrap gap-2 w-full">
                   <a
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 text-purple-600 hover:text-purple-800 transition-colors border-2 border-purple-600 px-4 py-2 sm:px-6 sm:py-3 rounded-tl-3xl font-bold text-xs sm:text-sm flex-1 max-w-full"
+                    className="flex items-center justify-center gap-2 text-purple-600 transition-colors border-2 border-purple-600 px-4 py-2 sm:px-6 sm:py-3 rounded-tl-3xl font-bold text-xs sm:text-sm flex-1 max-w-full"
                   >
                     <FaGithub /> GitHub
                   </a>

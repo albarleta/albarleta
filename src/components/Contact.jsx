@@ -63,10 +63,10 @@ export default function Contact() {
 
         <div className="flex justify-center gap-4">
           <a href="https://www.linkedin.com/in/albarleta/" target="_blank">
-            <FaLinkedin className="text-5xl text-purple-900" />
+            <FaLinkedin className="text-5xl text-purple-700" />
           </a>
           <a href="https://github.com/albarleta" target="_blank">
-            <FaGithub className="text-5xl text-purple-900" />
+            <FaGithub className="text-5xl text-purple-700" />
           </a>
         </div>
 
@@ -95,7 +95,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-blue-500"
+                  className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-purple-700"
                 />
               </div>
 
@@ -107,7 +107,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-blue-500"
+                  className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-purple-700"
                 />
               </div>
 
@@ -119,7 +119,7 @@ export default function Contact() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-blue-500"
+                  className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-purple-700"
                 />
               </div>
 
@@ -130,7 +130,7 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-blue-500 resize-none"
+                  className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-purple-700 resize-none"
                   rows={4}
                   maxLength={120}
                 ></textarea>
