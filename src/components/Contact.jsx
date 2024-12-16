@@ -97,7 +97,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-slate-700">
-                  Find me
+                  Meet me
                 </h3>
                 <p className="text-gray-600 mb-2">Let’s connect in person.</p>
                 <p className="text-purple-900">Manila, Philippines</p>
