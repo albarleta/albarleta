@@ -1,6 +1,10 @@
-import React from "react";
+import { useState, useRef, useEffect } from "react";
 
 export default function Hero() {
+  const [rotation, setRotation] = useState(0);
+  const angularVelocityRef = useRef(0);
+  const animationFrameRef = useRef(null);
+
   const scrollToSection = () => {
     const element = document.getElementById("about");
     if (element) {
@@ -10,6 +14,41 @@ export default function Hero() {
       });
     }
   };
+
+  const spinOnClick = () => {
+    // Set an initial high angular velocity
+    angularVelocityRef.current = Math.random() * 30 + 20; // Random initial velocity
+
+    const spinDown = () => {
+      setRotation((prev) => prev + angularVelocityRef.current);
+
+      // Apply friction to reduce the velocity
+      angularVelocityRef.current *= 0.98;
+
+      // Continue spinning until the velocity is low enough
+      if (Math.abs(angularVelocityRef.current) > 0.1) {
+        animationFrameRef.current = requestAnimationFrame(spinDown);
+      } else {
+        // Stop the animation when velocity is negligible
+        cancelAnimationFrame(animationFrameRef.current);
+      }
+    };
+
+    // Start the spin-down animation
+    if (animationFrameRef.current) {
+      cancelAnimationFrame(animationFrameRef.current);
+    }
+    animationFrameRef.current = requestAnimationFrame(spinDown);
+  };
+
+  useEffect(() => {
+    // Cleanup any running animations
+    return () => {
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
+      }
+    };
+  }, []);
 
   return (
     <div className="relative">
@@ -42,7 +81,15 @@ export default function Hero() {
             <img
               src="/img/hero.png"
               alt="Hero"
+              onClick={spinOnClick}
+              style={{
+                transform: `rotate(${rotation}deg)`,
+                cursor: "pointer",
+                userSelect: "none",
+                transition: "transform 0.05s linear",
+              }}
               className="rounded-full w-32 h-32 sm:w-48 sm:h-48 md:w-72 md:h-72 object-cover md:mt-10"
+              draggable="false"
             />
           </div>
         </div>
