@@ -20,9 +20,10 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <a
               href="/"
-              className="text-xl font-semibold text-white/90 hover:text-white transition-colors"
+              className="text-xl font-semibold text-white/90 hover:text-white transition-colors flex gap-2 items-center"
             >
-              <img src="/img/logo.png" alt="Logo" className="h-10 w-auto" />
+              <img src="/img/logo.png" alt="Logo" className="h-7 w-auto" />
+              <span>Al Barleta</span>
             </a>
           </div>
 

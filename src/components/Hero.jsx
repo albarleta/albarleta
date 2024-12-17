@@ -16,7 +16,7 @@ export default function Hero() {
         style={{
           backgroundColor: "#201890",
           backgroundImage:
-            "linear-gradient(135deg, #201890 0%, #4339de 36%, #4bd9d1 100%)",
+            "linear-gradient(135deg, #201890 0%, #4a3faa 36%, #6ae1d6 100%)",
         }}
       >
         <div className="container mx-auto grid md:grid-cols-2 gap-4 items-center px-4">
@@ -37,7 +37,7 @@ export default function Hero() {
               <a
                 href="/AlBarleta_MERN_WebDeveloper.pdf"
                 download="AlBarleta_MERN_WebDeveloper.pdf"
-                className="bg-[#86D84F] text-white px-6 py-3 font-bold rounded-br-3xl hover:bg-[#9ee76e] transition-colors inline-flex items-center justify-center"
+                className="bg-[#3fd86e] text-white px-6 py-3 font-bold rounded-br-3xl hover:bg-[#5dea87] transition-colors inline-flex items-center justify-center"
               >
                 Download my resume
               </a>
