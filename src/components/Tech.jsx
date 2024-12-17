@@ -23,7 +23,13 @@ export default function Tech() {
               src={src}
               alt={alt}
               className="max-w-full max-h-full object-contain"
+              // className="filter grayscale saturate-150 brightness-90 hue-rotate-270"
             />
+            {/* <img
+              src={src}
+              alt={alt}
+              className="filter brightness-0 saturate-100 invert-[0.7] sepia-[0.4] saturate-[600%] hue-rotate-[220deg]"
+            /> */}
           </div>
           <p className="font-bold mt-2">{alt}</p>
         </div>

@@ -24,7 +24,7 @@ const interestsDetails = {
     favorites: ["Lex Fridman", "Joe Rogan", "Tom Bilyeu"],
   },
   Technology: {
-    favorites: ["AI", "Robotics and Internet of Things", "Futurism"],
+    favorites: ["Web Development", "AI", "Futurism"],
   },
   "Science Fiction": {
     favorites: ["Foundation", "The Expanse", "Black Mirror"],
@@ -41,20 +41,20 @@ const interestsDetails = {
 };
 
 const interests = [
-  { icon: <LiaBookSolid className="text-purple-600" />, label: "Books" },
-  { icon: <MdPodcasts className="text-purple-600" />, label: "Podcasts" },
-  { icon: <GrTechnology className="text-purple-600" />, label: "Technology" },
-  { icon: <PiAlien className="text-purple-600" />, label: "Science Fiction" },
+  { icon: <LiaBookSolid className="text-[#34b4ea]" />, label: "Books" },
+  { icon: <MdPodcasts className="text-[#34b4ea]" />, label: "Podcasts" },
+  { icon: <GrTechnology className="text-[#34b4ea]" />, label: "Technology" },
+  { icon: <PiAlien className="text-[#34b4ea]" />, label: "Science Fiction" },
   {
-    icon: <GiWeightLiftingUp className="text-purple-600" />,
+    icon: <GiWeightLiftingUp className="text-[#34b4ea]" />,
     label: "Weight Lifting",
   },
   {
-    icon: <GiGuitarBassHead className="text-purple-600" />,
+    icon: <GiGuitarBassHead className="text-[#34b4ea]" />,
     label: "Music",
   },
   {
-    icon: <FaCat className="text-purple-600" />,
+    icon: <FaCat className="text-[#34b4ea]" />,
     label: "Cats",
   },
 ];
@@ -70,11 +70,11 @@ export default function Interests() {
             </HoverCardTrigger>
             <HoverCardContent className="p-4">
               <div className="flex items-start gap-4">
-                <div className="text-3xl text-purple-600 mt-1">
+                <div className="text-3xl text-[#34b4ea] mt-1">
                   {interest.icon}
                 </div>
                 <div>
-                  <h3 className="font-bold mb-2 text-purple-600">Favorites</h3>
+                  <h3 className="font-bold mb-2 text-[#34b4ea]">Favorites</h3>
                   <ul className="space-y-1">
                     {interestsDetails[interest.label].favorites.map(
                       (favorite, idx) => (

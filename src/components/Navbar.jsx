@@ -22,11 +22,7 @@ export default function Navbar() {
               href="/"
               className="text-xl font-semibold text-white/90 hover:text-white transition-colors"
             >
-              <img
-                src="/img/logo.png"
-                alt="Logo"
-                className="h-10 w-auto rounded-full"
-              />
+              <img src="/img/logo.png" alt="Logo" className="h-10 w-auto" />
             </a>
           </div>
 

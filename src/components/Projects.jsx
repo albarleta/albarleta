@@ -74,11 +74,11 @@ export default function Projects() {
       className="pt-16 rounded-tr-[8rem] rounded-br-[8rem]"
       style={{
         backgroundColor: "#EAE1F1",
-        backgroundImage: "linear-gradient(62deg, #E7DDFF 0%, #9681AB 100%)",
+        backgroundImage: "linear-gradient(62deg, #0093E9 0%, #80D0C7 100%)",
       }}
     >
       <div className="container m-auto px-4 pb-24 max-w-6xl">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
+        <h2 className="text-4xl font-bold text-center text-white mb-12">
           My Projects
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -109,7 +109,7 @@ export default function Projects() {
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="bg-slate-100 text-purple-600 px-2 py-1 rounded-full text-xs"
+                      className="bg-slate-100 text-[#34b4ea] px-2 py-1 rounded-full text-xs"
                     >
                       {tech}
                     </span>
@@ -121,7 +121,7 @@ export default function Projects() {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 text-purple-600 transition-colors border-2 border-purple-600 px-4 py-2 sm:px-6 sm:py-3 rounded-tl-3xl font-bold text-xs sm:text-sm flex-1 max-w-full"
+                    className="flex items-center justify-center gap-2 text-[#4649DD] transition-colors border-2 border-[#4649DD] px-4 py-2 sm:px-6 sm:py-3 rounded-tl-3xl font-bold text-xs sm:text-sm flex-1 max-w-full"
                   >
                     <FaGithub /> GitHub
                   </a>
@@ -129,7 +129,7 @@ export default function Projects() {
                     href={project.liveDemoLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 text-white hover:text-white transition-colors bg-orange-400 px-4 py-2 sm:px-6 sm:py-3 font-bold rounded-br-3xl text-xs sm:text-sm flex-1 max-w-full"
+                    className="flex items-center justify-center gap-2 text-white hover:text-white transition-colors hover:bg-[#9ee76e]  bg-[#86D84F] px-4 py-2 sm:px-6 sm:py-3 font-bold rounded-br-3xl text-xs sm:text-sm flex-1 max-w-full"
                   >
                     <FiExternalLink /> Demo
                   </a>

@@ -71,7 +71,7 @@ export default function Contact() {
           <div className="space-y-8 max-w-md mx-auto lg:pr-8">
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg">
-                <IoMdMail className="h-6 w-6 text-purple-500" />
+                <IoMdMail className="h-6 w-6 text-[#34b4ea]" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-slate-700">
@@ -82,7 +82,7 @@ export default function Contact() {
                 </p>
                 <a
                   href="mailto:al.barleta@protonmail.com"
-                  className="text-purple-800 hover:underline"
+                  className="text-[#34b4ea] hover:underline"
                 >
                   al.barleta@protonmail.com
                 </a>
@@ -91,20 +91,20 @@ export default function Contact() {
 
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg">
-                <IoMdPin className="h-6 w-6 text-purple-500" />
+                <IoMdPin className="h-6 w-6 text-[#34b4ea]" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-slate-700">
                   Meet me
                 </h3>
                 <p className="text-gray-600 mb-2">Let’s connect in person.</p>
-                <p className="text-purple-800">Manila, Philippines</p>
+                <p className="text-[#34b4ea]">Manila, Philippines</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg">
-                <FaPhone className="h-6 w-6 text-purple-500" />
+                <FaPhone className="h-6 w-6 text-[#34b4ea]" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-slate-700">
@@ -116,7 +116,7 @@ export default function Contact() {
                 </p>
                 <a
                   href="tel:+639164890881"
-                  className="text-purple-800 hover:underline"
+                  className="text-[#34b4ea] hover:underline"
                 >
                   +63 916 489-0881
                 </a>
@@ -131,7 +131,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="hover:opacity-75 transition-opacity"
               >
-                <FaLinkedin className="text-4xl text-purple-700" />
+                <FaLinkedin className="text-4xl text-[#34b4ea]" />
               </a>
               <a
                 href="https://github.com/albarleta"
@@ -139,7 +139,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="hover:opacity-75 transition-opacity"
               >
-                <FaGithub className="text-4xl text-purple-700" />
+                <FaGithub className="text-4xl text-[#34b4ea]" />
               </a>
             </div>
           </div>
@@ -170,7 +170,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-purple-700"
+                    className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-[#201890]"
                   />
                 </div>
 
@@ -182,7 +182,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-purple-700"
+                    className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-[#201890]"
                   />
                 </div>
 
@@ -194,7 +194,7 @@ export default function Contact() {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-purple-700"
+                    className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-[#201890]"
                   />
                 </div>
 
@@ -205,7 +205,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-purple-700 resize-none"
+                    className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-xl focus:outline-none focus:border-[#201890] resize-none"
                     rows={4}
                     maxLength={120}
                   ></textarea>
@@ -216,7 +216,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="bg-orange-400 text-white px-6 py-3 font-bold rounded-br-3xl w-full hover:bg-orange-500 transition-colors"
+                  className="bg-[#86D84F] hover:bg-[#9ee76e] text-white px-6 py-3 font-bold rounded-br-3xl w-full transition-colors"
                 >
                   Send Message
                 </button>
