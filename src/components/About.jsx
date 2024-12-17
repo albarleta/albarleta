@@ -11,18 +11,17 @@ export default function About() {
           <div>
             <h3 className="font-bold text-md mb-2 text-slate-700">Summary:</h3>
             <p className="text-slate-600 mb-5">
-              Hi, I'm Al, a full-stack web developer with expertise in the MERN
-              stack (MongoDB, Express, React, Node.js). I recently completed an
-              intensive coding bootcamp, where I honed my skills in transforming
-              ideas into fully functional full-stack applications.
+              Hey, I'm Al, a full-stack web developer specializing in the MERN
+              stack (MongoDB, Express, React, Node.js). After completing an
+              intensive coding bootcamp, I've gained the skills to transform
+              ideas into fully functional full-stack web applications. I'm
+              passionate about solving problems, collaborating on creative
+              projects, and continuously grow as a developer.
             </p>
-            <p className="text-slate-600 mb-5">
-              I love solving complex problems, collaborating on creative
-              projects, and always looking for new ways to grow as a developer.
-            </p>
+
             <p className="text-slate-600 mb-10">
-              When I’m not coding, you can find me enjoying the interests listed
-              below—hover over the badges to learn more!
+              Outside of coding, I enjoy various interests listed below. Hover
+              over the badges to learn more.
             </p>
             <div>
               <h3 className="font-bold text-md mb-3 text-slate-700">
