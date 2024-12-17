@@ -71,10 +71,10 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="pt-16 rounded-tr-[8rem]  rounded-br-[8rem]"
+      className="pt-16 rounded-tr-[8rem] rounded-br-[8rem]"
       style={{
-        backgroundColor: "#8EC5FC",
-        backgroundImage: "linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)",
+        backgroundColor: "#EAE1F1",
+        backgroundImage: "linear-gradient(62deg, #E7DDFF 0%, #9681AB 100%)",
       }}
     >
       <div className="container m-auto px-4 pb-24 max-w-6xl">
@@ -109,7 +109,7 @@ export default function Projects() {
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="bg-purple-100 text-purple-800 px-2 py-1 rounded-full text-xs"
+                      className="bg-slate-100 text-purple-600 px-2 py-1 rounded-full text-xs"
                     >
                       {tech}
                     </span>

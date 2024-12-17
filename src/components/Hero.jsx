@@ -52,7 +52,7 @@ export default function Hero() {
 
   return (
     <div className="relative">
-      <div className="bg-gradient-to-r from-purple-950 to-purple-800 min-h-[70vh] flex items-center pt-32 sm:pt-16 md:pt-28 rounded-br-[8rem]">
+      <div className="bg-gradient-to-r from-purple-900 to-purple-950 min-h-[70vh] flex items-center pt-32 sm:pt-16 md:pt-28 rounded-br-[8rem]">
         <div className="container mx-auto grid md:grid-cols-2 gap-4 items-center px-4">
           <div className="text-center md:text-left max-w-lg mx-auto">
             <h1 className="text-white text-4xl sm:text-6xl md:text-8xl font-extrabold mb-2 break-words">

@@ -69,9 +69,8 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Contact Information */}
           <div className="space-y-8 max-w-md mx-auto lg:pr-8">
-            {/* Chat to us */}
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100">
+              <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg">
                 <IoMdMail className="h-6 w-6 text-purple-500" />
               </div>
               <div>
@@ -82,17 +81,16 @@ export default function Contact() {
                   I’m always open to collaboration or questions.
                 </p>
                 <a
-                  href="mailto:hi@untitledui.com"
-                  className="text-purple-900 hover:underline"
+                  href="mailto:al.barleta@protonmail.com"
+                  className="text-purple-800 hover:underline"
                 >
                   al.barleta@protonmail.com
                 </a>
               </div>
             </div>
 
-            {/* Visit us */}
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100">
+              <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg">
                 <IoMdPin className="h-6 w-6 text-purple-500" />
               </div>
               <div>
@@ -100,13 +98,12 @@ export default function Contact() {
                   Meet me
                 </h3>
                 <p className="text-gray-600 mb-2">Let’s connect in person.</p>
-                <p className="text-purple-900">Manila, Philippines</p>
+                <p className="text-purple-800">Manila, Philippines</p>
               </div>
             </div>
 
-            {/* Call us */}
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100">
+              <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg">
                 <FaPhone className="h-6 w-6 text-purple-500" />
               </div>
               <div>
@@ -119,7 +116,7 @@ export default function Contact() {
                 </p>
                 <a
                   href="tel:+639164890881"
-                  className="text-purple-900 hover:underline"
+                  className="text-purple-800 hover:underline"
                 >
                   +63 916 489-0881
                 </a>
