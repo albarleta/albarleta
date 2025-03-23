@@ -1,5 +1,5 @@
-# 💻 My GitHub Portfolio  
+# 💻 Hey, I'm Al!
 
-Welcome to my GitHub portfolio! Here, you'll find a collection of projects showcasing my skills in web development, problem-solving, and creating innovative digital solutions.  
+I'm a full-stack web developer focused on building reliable, efficient, and user-friendly solutions. 
 
-Live demo: [Al Barleta](https://albarleta.onrender.com/)
+My portfolio: [Al Barleta](https://albarleta.onrender.com/)
